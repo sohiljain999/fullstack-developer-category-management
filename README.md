@@ -2,7 +2,6 @@
 ### Context
 
 Built an application to manage E-Commerce Fashion Categories in a tree structure
-
 #### Data Sample:
 ##### 
     -Women
@@ -27,7 +26,6 @@ Built an application to manage E-Commerce Fashion Categories in a tree structure
             - Causal Shirts
             - Plain Shirts
             
-
 ### Task
 
 ##### Design an api that can display the categories in Hirerachical(Tree View) in N number of levels
@@ -40,16 +38,14 @@ Built an application to manage E-Commerce Fashion Categories in a tree structure
 ##### The API should follow typical RESTful API design pattern.
 ##### The data should be saved in the DB.
 ##### **Provide proper unit test**
-
 ## Tech stack
 ##### In any of these backend technology:  Java/Node.JS/Python/GoLang
 ##### Frontend: React/Angular
 
-
 ### Bonus
-#### Write clear documentation on how it's designed and how to run the code.
-#### Write good in-code comments.
-#### Write good commit messages.
+##### Write clear documentation on how it's designed and how to run the code.
+##### Write good in-code comments.
+##### Write good commit messages.
 
 ### Evaluation Criteria
 
