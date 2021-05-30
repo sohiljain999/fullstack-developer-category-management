@@ -1,6 +1,6 @@
 # Context
 
-Built an application to manage E-Commerce Fashion Categories in a tree structure
+Built an application to manage E-Commerce Fashion categories in a tree structure
 
 #### Data Sample:
 ##### 
@@ -38,19 +38,28 @@ Built an application to manage E-Commerce Fashion Categories in a tree structure
 ### Functionality
 1. The API should follow typical RESTful API design pattern.
 2. The data should be saved in the DB.
-3. Provide proper unit test**
+3. Provide proper unit test
 
 ## Tech stack
 1. In any of these backend technology:  Java/Node.JS/Python/GoLang
-2. Frontend: React/Angular
+2. Frontend: React/Angular (BONUS)
 
 ## Evaluation
 1. Readable and Structured Code
 2. Logical implementation
-2. Covering all the edge cases in the Unit Test
+2. Covering all the edge-cases scenarios in the Unit Test
 
 
 ### Bonus
-#### Write clear documentation on how it's designed and how to run the code.
-#### Write good in-code comments.
-#### Write good commit messages.
+1. Write good in-code comments.
+3. Write good commit messages.
+
+### Time
+1. Task has completed in 9 hours
+2. Submission Date: Within 7 Days.
+
+### How to Start
+1. Clone this Repository
+2. Commit the code and test cases to your cloned repository.
+3. DO NOT Fork this repository
+4. DO NOT raise PR to this repository
