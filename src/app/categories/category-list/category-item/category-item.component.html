@@ -1,0 +1,20 @@
+<ng-template #nodeTemplateRef let-node="node">
+    <div>
+        <ul>
+            <li>
+                <a [routerLink]="[node._id]" routerLinkActive="active"
+                    class="list-group-item clearfix label">{{node.name}}</a>
+            </li>
+        </ul>
+
+        <div *ngIf="node.childNodes.length" class="children">
+            <ng-template ngFor let-child [ngForOf]="node.childNodes">
+                <ng-template [ngTemplateOutlet]="nodeTemplateRef" [ngTemplateOutletContext]="{ node: child }">
+                </ng-template>
+            </ng-template>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngTemplateOutlet]="nodeTemplateRef" [ngTemplateOutletContext]="{ node: category }">
+</ng-template>

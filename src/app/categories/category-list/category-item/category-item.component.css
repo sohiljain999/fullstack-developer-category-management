@@ -1,0 +1,21 @@
+button {
+  margin: 5px;
+}
+
+a {
+  background-color: lightgray;
+  width: fit-content;
+  cursor: pointer;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.children {
+  margin: 5px 0px 5px 30px;
+}

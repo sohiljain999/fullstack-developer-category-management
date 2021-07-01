@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-xs-12">
+        <label>Category Name: {{ category.name }}</label>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12">
+        <label>Category Id: {{ category._id }}</label>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12">
+        <button type="button" class="btn btn-default" (click)="onEditCategory()">Edit</button>
+        <button type="button" class="btn btn-default" (click)="onDeleteCategory(category._id)" >Delete</button>
+    </div>
+</div>
