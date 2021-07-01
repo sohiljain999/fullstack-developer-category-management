@@ -1,65 +1,26 @@
 # Context
 
-Built an application to manage E-Commerce Fashion categories in a tree structure
+Application to manage E-Commerce Fashion categories in a tree structure.
 
-#### Data Sample:
-##### 
-    -Women
-        - Clothing
-            - Dresss
-                - Causal Dresses
-                - Party Dresses
-        - T-Shirts
-            - Printed T-shirts
-            - Causal T-Shirts
-            - Plain T-Shirts
-    -Men
-        - Footwear
-            - Branded
-            - Non Branded
-        - T-Shirts
-            - Printed T-shirts
-            - Causal T-Shirts
-            - Plain T-Shirts
-        - Shirts
-            - Party Shirts
-            - Causal Shirts
-            - Plain Shirts
-            
+## Prerequisite
 
-### Task
+Angular CLI - 11.2.14
+Node - 12.18.1 
 
-1. Design an api that can display the categories in Hierarchical(Tree View) in N number of levels
-2. Design 3 API endpoint that will create/update/delete categories
-3. Display the category in tree structure.
+## MongoDB 
 
+A [MongoDB](https://docs.mongodb.com/manual/tutorial/) database is required (running on `mongodb://localhost:27017/fashion`).
+The app will use a schema with name `fashion` and a collection with name `categories`.
 
-## Requirements
-### Functionality
-1. The API should follow typical RESTful API design pattern.
-2. The data should be saved in the DB.
-3. Provide proper unit test
+## Development server
 
-## Tech stack
-1. In any of these backend technology:  Java/Node.JS/Python/GoLang
-2. Frontend: React/Angular (BONUS)
+First run below command at root location:
+`npm install`.
 
-## Evaluation
-1. Readable and Structured Code
-2. Logical implementation
-2. Covering all the edge-cases scenarios in the Unit Test
+Run `npm start` for a Express server. Navigate to `http://localhost:3000/api/status`. The result will be `{"status":"UP"}`.
 
+Run `ng serve --proxy-config proxy.config.json` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### Bonus
-1. Write good in-code comments.
-3. Write good commit messages.
+## Running unit tests
 
-### Time
-1. Task has completed in 9 hours
-2. Submission Date: Within 7 Days.
-
-### How to Start
-1. Clone this Repository
-2. Commit the code and test cases to your cloned repository.
-3. DO NOT Fork this repository
-4. DO NOT raise PR to this repository
+Run `npm test` to execute the unit tests.
