@@ -5,6 +5,7 @@ Application to manage E-Commerce Fashion categories in a tree structure.
 ## Prerequisite
 
 Angular CLI - 11.2.14
+
 Node - 12.18.1 
 
 ## MongoDB 
