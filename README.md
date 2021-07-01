@@ -18,7 +18,7 @@ The app will use a schema with name `fashion` and a collection with name `catego
 First run below command at root location:
 `npm install`.
 
-Run `npm start` for a Express server. Navigate to `http://localhost:3000/api/status`. The result will be `{"status":"UP"}`.
+Run `npm start` for a Express server. Navigate to `http://localhost:3000/api/health`. The result will be `{"status":"Server is UP"}`.
 
 Run `ng serve --proxy-config proxy.config.json` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
